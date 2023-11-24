@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>discount</title>
+</head>
+<body>
+  <p>Coin-flip game</p>
+  <button onclick="
+  const randomNumber = Math.random();
+
+  let computerMove = '';
+
+  (randomNumber <= 0.5) ? computerMove = 'tail' : 
+  computerMove = 'head';
+  console.log(computerMove);
+
+  let result = '';
+  (computerMove === 'head') ? alert('You win') :
+  alert('You lose!');
+  ">Head</button>
+
+
+  <button onclick="
+  const randomNumber = Math.random();
+
+  let computerMove = '';
+
+  (randomNumber <= 0.5) ? computerMove = 'tail' : 
+  computerMove = 'head';
+  console.log(computerMove);
+
+  let result = '';
+  (computerMove === 'tail') ? alert('You win') :
+  alert('You lose!');
+  ">Tails</button>
+
+   <script>
+   </script>
+</body>
+</html>
